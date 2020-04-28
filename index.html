@@ -9,23 +9,21 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #f2f2f2;
-      padding: 25px;
+      margin-top: 25px;
+    }
+    /*  Make image center  */
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
   </style>
 </head>
 <body>
 
 <!-- Navigation bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">Group name</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -59,66 +57,78 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form> -->
     </div>
-    </nav>
+  </nav>
 
-    <div class="jumbotron">
-        <div class="container text-center">
-          <h1>ชื่อกลุ่มเรา ไงงงงง</h1>      
-          <p>ลูกหมูสามตัว</p>
-        </div>
-      </div>
+<div class="jumbotron" style="margin-top: 50px;">
+    <div class="container text-center">
+      <h1>ชื่อกลุ่มเรา ไงงงงง</h1>      
+      <p>ลูกหมูสามตัว</p>
+    </div>
+</div>
 
 <!-- Member part -->
 <div class="container marketing">
-    <!-- Three columns of text below the carousel -->
+  <!-- Three columns of text below the carousel -->
+  <div class="row text-center">
+    <div class="col-lg-4">
+      <img style="width: 140px;"class="rounded-circle" src="https://iheartcats.com/wp-content/uploads/2019/11/IMG_9104-e1574367794566.jpg" ></img>
+      <h2 style="margin-top: 20px;">PP</h2>
+      <p>description 1</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img style="width: 140px;"class="rounded-circle" src="https://iheartcats.com/wp-content/uploads/2019/11/IMG_9104-e1574367794566.jpg" ></img>
+      <h2 style="margin-top: 20px;">Tong</h2>
+      <p>description 2</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img style="width: 140px;"class="rounded-circle" src="https://iheartcats.com/wp-content/uploads/2019/11/IMG_9104-e1574367794566.jpg" ></img>
+      <h2 style="margin-top: 20px;">Tim</h2>
+      <p>description 3</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div>
+  </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+
+<!-- Separater -->
+<hr class="container">
+
+
+<div class="container">
+  <div class="container-fluid bg-3 text-center">    
     <div class="row">
-        <div class="col-lg-4">
-            <img style="width: 140px;"class="rounded-circle" src="https://iheartcats.com/wp-content/uploads/2019/11/IMG_9104-e1574367794566.jpg" ></img>
-        <h2>PP</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img style="width: 140px;"class="rounded-circle" src="https://iheartcats.com/wp-content/uploads/2019/11/IMG_9104-e1574367794566.jpg" ></img>
-        <h2>Tong</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-        <img style="width: 140px;"class="rounded-circle" src="https://iheartcats.com/wp-content/uploads/2019/11/IMG_9104-e1574367794566.jpg" ></img>
-        <h2>Tim</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-    <hr>
-
-
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <div class="col-sm-3">
+        <p>Some text..</p>
+        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive centered" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-3"> 
+        <p>Some text..</p>
+        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-3"> 
+        <p>Some text..</p>
+        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-3">
+        <p>Some text..</p>
+        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      </div>
     </div>
   </div>
-</div><br><br>
+</div>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
+<!-- Footer -->
+<!-- <footer>
+  <div class="container">
+    <span class="text-muted">Place sticky footer content here.</span>
+  </div>
+</footer> -->
+<hr class="container">
+<footer id="sticky-footer" class="pb-0 pt-0 ">
+  <div class="container text-left">
+    <p>Copyright &copy; eatmeteam.github.io</p>
+  </div>
 </footer>
-
 </body>
 </html>
