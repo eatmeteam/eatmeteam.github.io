@@ -22,17 +22,18 @@
 </p>
 </details>
 
+
+	
+## Navigation bar store in one file (Idea but probably not good)
+
 <details><summary>Click here to expand</summary>
 <p>
-	
-## Navigation bar store in one file
-
 	
  - **NOT A GOOD IDEA CAUSING LOAD WRONG PAGE IF USING LOCAL DIRECTORY(./page.html)**	
  - PRO : Easy to update navigation bar in future.
  - CON : SEO Ranking impact
 ### Method
- - [x] Using `document.write()` by javascript **(current use on index.html)**
+ - [ ] Using `document.write()` by javascript
  
  - [ ] Using Ajax to load navbar.html 
  - [ ] Using XMLHttpRequest to load navbar.html
