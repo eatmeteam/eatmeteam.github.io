@@ -14,7 +14,7 @@
 }
 .configBG.third{
     background-image: url(3.jpg);
-    height: 763px;
+    height: 650px;
 }
 .fontPage{
     font-family: 'Source Sans Pro', sans-serif;
@@ -74,6 +74,7 @@
 .icon{
     font-size: 60px; 
     padding-top: 10px;
+    margin-left: 18%;
 }
 .levelScale{
     font-size: 24px;
@@ -103,11 +104,20 @@
     font-size: 60px; 
     padding-top: 25px; 
     padding-bottom: 20px;
+    padding-left: 40%;
 }
 .contactText{
     font-size: 32px;
     padding-left: 30px;
     padding-top: 30px;
+}
+.contactTopic{
+    padding-top: 0%;
+    margin-left: 0px; 
+    text-align: center; 
+    letter-spacing: 7px;
+    font-size: 60px;
+    font-weight: bolder;
 }
 
 .jumbotron{
@@ -119,7 +129,13 @@
 .fontIndex{
     font-family: 'Kanit', sans-serif;
 }
-@media (max-width: 768px){
+
+.configTable{
+    width: 80%;
+}
+
+/* Tablet Screen */
+@media screen and (max-width: 768px) and (orientation : portrait){
     .configBG{
         background-size: cover;
         background-repeat: no-repeat;
@@ -132,12 +148,142 @@
     }
     .configBG.second{
         background-image: url(2.jpg);
-        height: 800px;
+        height: 500px;
         background-position-y: 50px;
     }
     .configBG.third{
         background-image: url(3.jpg);
-        height: 700px;
+        height: 500px;
+        background-position-x: -100px;
+    }
+    /* About me section */
+    .centered {
+        position: absolute;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        margin-top: -25px;
+        margin-left: -50px;
+    }
+    .textTopic {
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        margin-bottom: 0px;
+        margin-left: 52%;
+    }
+    .textContent{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 52%;
+        letter-spacing: 3px;
+        line-height: 33px;
+    }
+    .picProfile{
+        border-radius: 300px;
+        width: 70%;
+    }
+    .configPicProfile{
+        padding-top: 40%;
+    }
+    .name{
+        font-weight: 600; 
+        font-size: 24px; 
+        letter-spacing: 5px;
+        margin-left: 52%;
+        line-height: 33px;
+    }
+
+    /* ----- end of section ------ */
+
+
+    /* ability section */
+
+    .abilityTopic{
+        margin-left: 0px; 
+        padding-top: 25%; 
+        text-align: center; 
+        letter-spacing: 7px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .configAbilitySection{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 25px;
+        letter-spacing: 7px;
+    }
+    .icon{
+        font-size: 40px; 
+        padding-top: 10px;
+    }
+    .levelScale_lang{
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    .levelScale_for_c_lang{
+        font-size: 16px;
+        padding-left: 35px;
+    }
+    .levelScale_hobbies{
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .levelScale_for_reading_icon{
+        font-size: 16px;
+        padding-left: 35px;
+    }
+    .levelScale_for_playing_icon{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    /* ------ end of section -------*/
+
+
+    /* contact section */
+
+    .contactTopic{
+        padding-top: 15%;
+        margin-left: 0px; 
+        text-align: center; 
+        letter-spacing: 7px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .contactIcon{
+        font-size: 40px; 
+        padding-top: 25px; 
+        padding-bottom: 0px;
+        padding-left: 40%;
+    }
+    .contactText{
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}
+
+/* Tablet Screen */
+@media screen and (max-width: 1200px) and (orientation : landscape){
+    .configBG{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .configBG.first{
+        background-image: url(1.jpg);
+        height: 500px;
+        background-position-x: -100px;
+    }
+    .configBG.second{
+        background-image: url(2.jpg);
+        height: 500px;
+        background-position-y: 50px;
+    }
+    .configBG.third{
+        background-image: url(3.jpg);
+        height: 500px;
         background-position-x: -100px;
     }
     /* About me section */
@@ -167,7 +313,7 @@
         width: 70%;
     }
     .configPicProfile{
-        padding-top: 50%;
+        padding-top: 40%;
     }
     .name{
         font-weight: 600; 
@@ -184,14 +330,14 @@
 
     .abilityTopic{
         margin-left: 0px; 
-        padding-top: 25%; 
+        padding-top: 8%; 
         text-align: center; 
         letter-spacing: 7px;
         font-size: 32px;
         font-weight: bolder;
     }
     .configAbilitySection{
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 700;
         text-align: center;
         padding-top: 25px;
@@ -200,26 +346,25 @@
     .icon{
         font-size: 40px; 
         padding-top: 10px;
-        padding-left: 40px;
     }
     .levelScale_lang{
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 50px;
     }
     .levelScale_for_c_lang{
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 35px;
     }
     .levelScale_hobbies{
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 30px;
     }
     .levelScale_for_reading_icon{
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 35px;
     }
     .levelScale_for_playing_icon{
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 25px;
     }
 
@@ -229,7 +374,7 @@
     /* contact section */
 
     .contactTopic{
-        padding-top: 20%;
+        padding-top: 5%;
         margin-left: 0px; 
         text-align: center; 
         letter-spacing: 7px;
@@ -240,10 +385,273 @@
         font-size: 40px; 
         padding-top: 25px; 
         padding-bottom: 0px;
+        padding-left: 40%;
     }
     .contactText{
         font-size: 20px;
         padding-left: 30px;
+        padding-top: 30px;
+    }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 812px) and (orientation : landscape){
+    .configBG{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .configBG.first{
+        background-image: url(1.jpg);
+        height: 600px;
+        background-position-x: -100px;
+    }
+    .configBG.second{
+        background-image: url(2.jpg);
+        height: 500px;
+        background-position-y: 50px;
+    }
+    .configBG.third{
+        background-image: url(3.jpg);
+        height: 500px;
+        background-position-x: -100px;
+    }
+    /* About me section */
+    .centered {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 200px;
+        margin-left: -50px;
+    }
+    .textTopic {
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        margin-bottom: 0px;
+        margin-left: 52%;
+    }
+    .textContent{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 52%;
+        letter-spacing: 3px;
+        line-height: 33px;
+    }
+    .picProfile{
+        border-radius: 300px;
+        width: 70%;
+    }
+    .configPicProfile{
+        padding-top: 40%;
+    }
+    .name{
+        font-weight: 600; 
+        font-size: 24px; 
+        letter-spacing: 5px;
+        margin-left: 52%;
+        line-height: 33px;
+    }
+
+    /* ----- end of section ------ */
+
+
+    /* ability section */
+
+    .abilityTopic{
+        margin-left: 0px; 
+        padding-top: 8%; 
+        text-align: center; 
+        letter-spacing: 7px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .configAbilitySection{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 25px;
+        letter-spacing: 7px;
+    }
+    .icon{
+        font-size: 40px; 
+        padding-top: 10px;
+    }
+    .levelScale_lang{
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    .levelScale_for_c_lang{
+        font-size: 16px;
+        padding-left: 35px;
+    }
+    .levelScale_hobbies{
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .levelScale_for_reading_icon{
+        font-size: 16px;
+        padding-left: 35px;
+    }
+    .levelScale_for_playing_icon{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    /* ------ end of section -------*/
+
+
+    /* contact section */
+
+    .contactTopic{
+        padding-top: 0%;
+        margin-left: 0px; 
+        text-align: center; 
+        letter-spacing: 7px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .contactIcon{
+        font-size: 40px; 
+        padding-top: 25px; 
+        padding-bottom: 0px;
+        padding-left: 30%;
+    }
+    .contactText{
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+}
+
+
+/* Mobile Screen */
+@media screen and (max-width: 500px) and (orientation : portrait){
+    .configBG{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .configBG.first{
+        background-image: url(1.jpg);
+        height: 600px;
+        background-position-x: -270px;
+    }
+    .configBG.second{
+        background-image: url(2.jpg);
+        height: 600px;
+        background-position-y: 50px;
+    }
+    .configBG.third{
+        background-image: url(3.jpg);
+        height: 600px;
+        background-position-x: -100px;
+    }
+    /* About me section */
+    .centered {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -25px;
+        margin-left: 50px;
+    }
+    .textTopic {
+        font-size: 22px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+        margin-left: 30%;
+    }
+    .textContent{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 20%;
+        letter-spacing: 3px;
+        line-height: 33px;
+    }
+    .picProfile{
+        border-radius: 300px;
+        width: 50%;
+    }
+    .configPicProfile{
+        padding-top: 5%;
+        padding-left: 30%;
+    }
+    .name{
+        font-weight: 600; 
+        font-size: 18px; 
+        letter-spacing: 5px;
+        margin-left: 20%;
+        line-height: 33px;
+    }
+
+    /* ----- end of section ------ */
+
+
+    /* ability section */
+
+    .abilityTopic{
+        margin-left: 0px; 
+        padding-top: 30%; 
+        text-align: center; 
+        letter-spacing: 7px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .configAbilitySection{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 25px;
+        letter-spacing: 7px;
+    }
+    .icon{
+        font-size: 40px; 
+        padding-top: 10px;
+    }
+    .levelScale_lang{
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    .levelScale_for_c_lang{
+        font-size: 16px;
+        padding-left: 45px;
+    }
+    .levelScale_hobbies{
+        font-size: 16px;
+        padding-left: 30px;
+    }
+    .levelScale_for_reading_icon{
+        font-size: 16px;
+        padding-left: 35px;
+    }
+    .levelScale_for_playing_icon{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+
+    /* ------ end of section -------*/
+
+
+    /* contact section */
+
+    .contactTopic{
+        padding-top: 55%;
+        margin-left: 0px; 
+        text-align: center; 
+        letter-spacing: 7px;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .contactIcon{
+        font-size: 40px; 
+        padding-top: 20px; 
+        padding-bottom: 0px;
+        padding-left: 60px
+    }
+    .contactText{
+        font-size: 18px;
+        padding-left: 15px;
         padding-top: 30px;
     }
 }
