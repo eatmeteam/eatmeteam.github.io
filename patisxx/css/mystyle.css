@@ -550,7 +550,7 @@
     /* About me section */
     .centered {
         position: absolute;
-        top: 50%;
+        top: 52%;
         transform: translate(-50%, -50%);
         margin-top: -25px;
         margin-left: 50px;
@@ -575,7 +575,7 @@
     }
     .configPicProfile{
         padding-top: 5%;
-        padding-left: 30%;
+        padding-left: 35%;
     }
     .name{
         font-weight: 600; 
@@ -592,7 +592,7 @@
 
     .abilityTopic{
         margin-left: 0px; 
-        padding-top: 30%; 
+        padding-top: 15%; 
         text-align: center; 
         letter-spacing: 7px;
         font-size: 32px;
@@ -636,7 +636,7 @@
     /* contact section */
 
     .contactTopic{
-        padding-top: 55%;
+        padding-top: 45%;
         margin-left: 0px; 
         text-align: center; 
         letter-spacing: 7px;
@@ -650,7 +650,7 @@
         padding-left: 60px
     }
     .contactText{
-        font-size: 18px;
+        font-size: 16px;
         padding-left: 15px;
         padding-top: 30px;
     }
