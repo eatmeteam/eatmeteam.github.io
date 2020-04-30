@@ -22,7 +22,13 @@
 </p>
 </details>
 
+<details><summary>Click here to expand</summary>
+<p>
+	
 ## Navigation bar store in one file
+
+	
+ - **NOT A GOOD IDEA CAUSING LOAD WRONG PAGE IF USING LOCAL DIRECTORY(./page.html)**	
  - PRO : Easy to update navigation bar in future.
  - CON : SEO Ranking impact
 ### Method
@@ -30,8 +36,7 @@
  
  - [ ] Using Ajax to load navbar.html 
  - [ ] Using XMLHttpRequest to load navbar.html
-<details><summary>Click here to expand</summary>
-<p>
+
 
 
 #### [1. Using `document.write()` by javascript](https://stackoverflow.com/a/7055046/11932657)
