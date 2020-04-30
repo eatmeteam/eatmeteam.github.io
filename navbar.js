@@ -16,7 +16,7 @@ document.write(`
                Member
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="#">PP</a>
+               <a class="dropdown-item" href="./pp/pp-profile.html">PP</a>
                <div class="dropdown-divider"></div>
                <a class="dropdown-item" href="./patisxx/patisxx.html">Tong</a>
                <div class="dropdown-divider"></div>
