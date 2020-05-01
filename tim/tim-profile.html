@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <title>Jinna C. - Member</title>
+  <link rel='icon' href='./../favicon.ico' type='image/x-icon'/ >
+  <link rel="icon" type="image/png" sizes="32x32" href="./../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./../img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./../img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./../img/favicon-16x16.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -25,38 +30,69 @@
   </style>
 </head>
 <body>
-<!-- Navigation bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="https://eatmeteam.github.io/">Group name</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="https://eatmeteam.github.io/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Member
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./../pp/pp-profile.html">PP</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="./../patisxx/patisxx.html">Tong</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="./tim-profile.html">Tim</a>
-                </div>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-        </ul>
-    </div>
-    </nav>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark navbar-dark">
+  <!-- Home Button -->
+  <a class="navbar-brand" href="/index.html">Eat Me Team</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- End Home button -->
+  <!-- Start Navbar button -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!-- Home -->
+        <li class="nav-item active">
+            <a class="nav-link" href="./../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- End Home -->
+        <!-- Member -->
+        <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Member
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./../pp/pp-profile.html">PP</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./../patisxx/patisxx.html">Tong</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./tim-profile.html">Tim</a>
+            </div>
+        </li>
+        <!-- End Member -->
+        <!-- Workshop -->
+        <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Workshop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">29 APRIL 2020</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">2 MAY 2020</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">4 MAY 2020</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">9 MAY 2020</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">16 MAY 2020</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">23 MAY 2020</a>
+            </div>
+        </li>
+        <!-- End Workshop -->
+      </ul>
+      <!-- Github -->
+      <ul class="navbar-nav mr-right" style="margin-top: -1%; margin-bottom: -1%;">
+        <li class="topbar-right active" style="margin-left:auto; margin-right:0;">
+          <a class="nav-link" href="https://github.com/eatmeteam/eatmeteam.github.io" target="_blank"><img class="rounded-circle" style="width: 100px" src="./../img/GitHub_Logo_White.png"></img></a>
+        </li>
+      </ul>
+      <!-- End Github -->
+  </div>
+  <!-- End Navbar button -->
+</nav>
+<!-- End Navigation Bar -->
 
 <!-- My Name -->
 <div class=" container jumbotron" >
@@ -87,10 +123,31 @@
         <li>C and C++</li>
       </ul>
     </div>
-    <hr>
+    <!-- <hr> -->
+    <!-- <h2 class="text-center">My Project</h2> -->
+    <!-- My Project -->
+    <!-- <div class="row text-center">
+      <div class="col-sm-6">
+        <a href="https://github.com/cjtim/docker-nginxproxy-wordpress-fpm"><p class="text-center">Docker and Bash Script Ready to deploy</p> <p class="text-center">[Nginx Proxy, Wordpress-FPM, Let's encrypt]</p>
+        <img src="https://autoize.com/wp-content/uploads/2017/09/multiple-wordpress-on-docker-host.png" class="img-responsive" style="width:70%; border-radius: 20%;" alt="Image"></a> 
+      </div>
+      <div class="col-sm-6"> 
+        <a href="https://hub.docker.com/r/cjtim/jupyter-base-c-java">
+        <p class="text-center">Docker Image ready to deploy With Python, C Kernel, IJava </p><p class="text-center">on hub.docker.com</p>
+        <img class="img-responsive" style="width:75%; border-radius: 20%;" src="https://itbakery.github.io/python3tutorial/assets/images/content_docker.png" alt="Image"></a>
+      </div> -->
+      <!-- <div class="col-sm-4">
+        <a href="https://blog.cjtim.wtf/hackintosh">
+        <p>I've been Hackintosh Since 2011..</p>
+        <img src="https://lh5.googleusercontent.com/M1ePYwBnE73TyD8O1DkHJ-bnv8lM68lZJnrSBN8EVEwsLYGxZAVwkSYCuQyeE_Bsz0uBn1Hv=w1280" class="img-responsive" style="border-radius: 20%; width:100%" alt="Image"></a>
+      </div> -->
+      
+  <!-- </div> -->
+
+  <hr class="container-fluid">
     <!-- Contact start -->
     <h2 class="text-center">Contact</h2>
-    <p class="text-center">Feel free to contact me. I'm glad to help you with backend.</p>
+    <p class="text-center">Feel free to contact me.</p>
     <div class="row">
       <!-- Github logo -->
       <div class="col-lg-4 text-center">
@@ -109,28 +166,6 @@
     </div>
      <!--Contact End  -->
 </div>
-
-
-<!-- <div class="container bg-3 text-center">    
-  <div class="row">
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-3"> 
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-3"> 
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-  </div>
-</div> -->
 
 <!-- Footer -->
 <hr class="container">
