@@ -37,17 +37,56 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Workshop
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">29 APRIL 2020</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">2 MAY 2020</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">4 MAY 2020</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">9 MAY 2020</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">16 MAY 2020</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">23 MAY 2020</a>
+                            </div>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="border border-dark">
-            <img class="picProfile" src="./img/pp2.jpg">
+        <div>
+            <div>
+                <img class="picProfile" src="./img/pp2.jpg">
+            </div>
+            <div>
+                <h1 style="text-align:center" class="name">Pirapat Jitcharoenwirakun</h1>
+            </div>
         </div>
 
-        <div class="border border-dark">
-            <h2 style="text-align:center" class="name">Pirapat Jitcharoenwirakun</h2>
+
+        <div style="font-family: monospace;" class = "aboutme">
+            <h3 style="text-align:left">About me</h3>
+            <p> -Age: 19 </p>
+            <p> -Kasetsart University</p>
+            <p> -Faculty of science </p>
+            <p> -ID: 6210400710</p>
+        </div>
+
+        <div style="font-family: monospace;" class = "Programing">
+            <h3 style="text-align:right">Programing</h3>
+            <p style="text-align:right" class = "Python"> -Python </p>
+            <p style="text-align:right" class = "c"> -C and C++ </p>
+        </div>
+
+        <div style="font-family: monospace;" class = "contact">
+            <h3 style="text-align: center;">CONTACT</h3>
+            <img class="facebook" src="./img/facebook.png">
+            <p class = "facename"> pirapat Jitcharoenwirakun </p>
+            <img class="ig" src="./img/ig.png">
+            <p class = "igname"> pp_chjz </p>
         </div>
     </body>
 
@@ -62,7 +101,8 @@
 
         .name
         {
-            margin-top: 250px;
+            margin-top: 350px;
+            font-family: monospace;
         }
 
         .picProfile
@@ -73,8 +113,52 @@
             height: 200px;
             left: 50%;
             margin-left: -100px;
-            margin-top: 100px;
+            margin-top: -250px;
         }
-        
+        .aboutme
+        {
+            margin-left: 350px;
+            margin-top: 55px;
+        }
+
+        .Programing
+        {
+            margin-top: -180px;
+            margin-right: 350px;
+        }
+        .Python
+        {
+            margin-right: 105px;
+        }
+        .c
+        {
+            margin-right: 85px;
+        }
+        .facebook
+        {
+            width: 50px;
+            height: 50px;
+            margin-left: 400px;
+        }
+        .facename
+        {
+            margin-left: 340px;
+        }
+        .ig
+        {
+            width: 50px;
+            height: 50px;
+            margin-top: -150px;
+            margin-left: 800px;
+        }
+        .igname
+        {
+            margin-top: -50px;
+            margin-left: 800px;
+        }
+        .contact
+        {
+            margin-top: 80px;
+        }
     </style>
 </html>
