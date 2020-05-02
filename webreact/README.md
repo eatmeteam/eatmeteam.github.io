@@ -1,5 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# How to start after clone project
+
+ 1. Download node_module
+ `cd webreact` and ``npm update``
+ 
+ 2. Start working :)
+ `npm start`
+    
+
+<details><summary>Click here to expand</summary>
+<p>
+	
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
@@ -66,3 +79,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+</p>
+</details>
